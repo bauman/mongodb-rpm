@@ -1,4 +1,6 @@
-if you just want the RPMs
+#mongodb
+
+##if you just want the RPMs
 
 
 
@@ -11,12 +13,13 @@ http://mongodb.bauman.in/repo/rpm/mongodb-server-2.6.3-1.el6.db.x86_64.rpm
 http://mongodb.bauman.in/repo/rpm/mongodb-tools-2.6.3-1.el6.db.x86_64.rpm
 
 
+
 http://mongodb.bauman.in/repo/srpms/mongodb-2.6.3-1.el6.db.src.rpm
 
 
 
 
-or keep up to date
+##or keep up to date
 
     cat > /etc/yum.repos.d/mongodb.bauman.in.repo << EOF
     [mongodb-bauman]
@@ -32,7 +35,7 @@ or keep up to date
 
 
 
-What does it support?
+##What does it support?
 
 
     scons install \
@@ -65,7 +68,7 @@ What does it support?
 
 --------------------------------------------------------
 
-This does not (yet) meet fedora packaging requirements.
+##This does not (yet) meet fedora packaging requirements.
 
 
 
@@ -82,7 +85,7 @@ TODO Fixes:
 
 
 
-Did not apply patches:
+##Did not apply patches:
 
 *   BSON type - this will not work on ARM, but who seriously puts a mongo server on ARM anyway?
 
@@ -90,3 +93,6 @@ Did not apply patches:
    
 
 
+
+#mongo c driver
+##if you just want the RPMs
